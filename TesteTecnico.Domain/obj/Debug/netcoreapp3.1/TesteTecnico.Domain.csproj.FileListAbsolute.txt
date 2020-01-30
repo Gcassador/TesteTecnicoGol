@@ -1,0 +1,8 @@
+C:\Projetos\TesteTecGol\TesteTecnico\TesteTecnico.Domain\bin\Debug\netcoreapp3.1\TesteTecnico.Domain.deps.json
+C:\Projetos\TesteTecGol\TesteTecnico\TesteTecnico.Domain\bin\Debug\netcoreapp3.1\TesteTecnico.Domain.dll
+C:\Projetos\TesteTecGol\TesteTecnico\TesteTecnico.Domain\obj\Debug\netcoreapp3.1\TesteTecnico.Domain.AssemblyInfoInputs.cache
+C:\Projetos\TesteTecGol\TesteTecnico\TesteTecnico.Domain\obj\Debug\netcoreapp3.1\TesteTecnico.Domain.AssemblyInfo.cs
+C:\Projetos\TesteTecGol\TesteTecnico\TesteTecnico.Domain\bin\Debug\netcoreapp3.1\TesteTecnico.Domain.pdb
+C:\Projetos\TesteTecGol\TesteTecnico\TesteTecnico.Domain\obj\Debug\netcoreapp3.1\TesteTecnico.Domain.csprojAssemblyReference.cache
+C:\Projetos\TesteTecGol\TesteTecnico\TesteTecnico.Domain\obj\Debug\netcoreapp3.1\TesteTecnico.Domain.dll
+C:\Projetos\TesteTecGol\TesteTecnico\TesteTecnico.Domain\obj\Debug\netcoreapp3.1\TesteTecnico.Domain.pdb

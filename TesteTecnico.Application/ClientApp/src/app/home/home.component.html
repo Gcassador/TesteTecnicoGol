@@ -1,0 +1,54 @@
+
+  <form [formGroup]="AirPlaneForm" (ngSubmit)="onSubmit(AirPlaneForm.value)">
+    <div class="row">
+      <input type="hidden" id="hdnId" formControlName="id" />
+      <div class="col">
+        <div class="form-group">
+          <label for="inputModel">Modelo do Avião</label>
+          <input type="text" class="form-control" id="inputModel" formControlName="model">
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-group">
+          <label for="inputPassanger">Numero de Passageiros</label>
+          <input type="number" class="form-control" id="inputPassanger" formControlName="numberOfPassenger">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <button class="btn btn-primary" type="submit">Salvar</button>
+    </div>
+  </form>
+<br />
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="airplanes.length">
+<thead>
+  <tr>
+    <th>Código do Avião</th>
+    <th>Modelo</th>
+    <th>Numero de passageiros</th>
+    <th>Criado em</th>
+    <th>Opções</th>
+  </tr>
+</thead>
+<tbody>
+  <tr *ngFor="let airplane of airplanes">
+    <td>{{ airplane.id }}</td>
+    <td>{{ airplane.model }}</td>
+    <td>{{ airplane.numberOfPassenger }}</td>
+    <td>{{ airplane.createdDate }}</td>
+    <td>
+      <button class="btn btn-info" (click)="Edit(airplane)">
+        Editar
+      </button>
+      <button class="btn btn-danger" (click)="Delete(airplane.id)">
+        Deletar
+      </button>
+    </td>
+  </tr>
+</tbody>
+</table>
+<div class="card" *ngIf="!airplanes.length">
+  <div class="card-body">
+    Não há aviões cadastrados
+  </div>
+</div>
